@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydrateSmart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-aYV3ItE5GfF96t7cxn3e3o5KKiXNpOUMDbK9ZfVr8GvG5RtZj4q6azCx5QKMO6QDoL6H2Wj2N1y6tbp68aK9Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="HydrateSmart_Logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="HydrateSmart_Logo.png" alt="Logotipo HydrateSmart" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>Bem-Vindo ao HydrateSmart</h1>
+                <p>Seu companheiro inteligente de hidratação.</p>
+                <a href="#features" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+        <section id="features">
+            <h2>Recursos</h2>
+            <div class="feature">
+                <img src="https://embarcados.com.br/wp-content/uploads/2024/02/digital-helthcare.png.webp" alt="Monitoramento Inteligente" class="feature-image">
+                <div class="feature-text">
+                    <h3><i class="fas fa-tint"></i> Monitoramento Inteligente</h3>
+                    <p>Acompanhe sua ingestão diária de água e receba lembretes personalizados.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://blog.wika.com.br/files/2021/06/beitragsbild_a-1200_diagnostic-function.jpg" alt="Sensores de Qualidade" class="feature-image">
+                <div class="feature-text">
+                    <h3><i class="fas fa-filter"></i> Sensores de Qualidade</h3>
+                    <p>Meça a qualidade da sua água com sensores integrados.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://saobernardo.com/blog/wp-content/uploads/2020/09/aplicativos-de-sa%C3%BAde.jpg" alt="Integração com App" class="feature-image">
+                <div class="feature-text">
+                    <h3><i class="fas fa-mobile-alt"></i> Integração com App</h3>
+                    <p>Conecte-se ao nosso aplicativo móvel para ver seus dados de hidratação e mais.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>A HydrateSmart é dedicada a melhorar sua saúde através de soluções inteligentes de hidratação. Nosso produto combina tecnologia avançada com benefícios práticos para garantir que você se mantenha hidratado e saudável.</p>
+            <img src="HydrateSmart_Startup_Facade.png" alt="Sobre Nós" class="about-image">
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2024 HydrateSmart. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
